@@ -1,0 +1,49 @@
+.repository {
+  display: flex;
+  background-color: #e3dae3;
+  padding: 20px;
+  margin: 20px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.stars-issues-container {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.avatar {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.repo-name {
+  font-family: 'Roboto';
+}
+.repo-desc {
+  font-family: 'Roboto';
+}
+.stars-text {
+  font-family: 'Roboto';
+  padding-right: 20px;
+  border: 1px solid #000000;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+}
+.issues-text {
+  font-family: 'Roboto';
+  border: 1px solid #000000;
+  margin: 10px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+}
+.last-pushed-text {
+  font-family: 'Roboto';
+  text-align: end;
+}
